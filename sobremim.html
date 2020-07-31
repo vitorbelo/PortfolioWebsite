@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title> Sobre mim</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <section class="banner" id="sec">
+      <header>
+        <a href="#" class="logo">Logo</a>
+        <div id="toggle" onclick="toggle()"></div>
+      </header>
+      <div class="content">
+        <h2>Sobre <span>Mim</span></h2>
+        <p>Olá, meu nome é Vitor Belo, tenho 21 anos e sou apaixonado por tecnologia. Aprendi a usar o computador
+          com 10 anos, na época eu jogava Roller Coaster (de construir parques) e da lá pra cá nunca parei de 
+          mexer no computador, joguei muitos jogos e hoje em dia estou em constante aprendizado para desenvolver 
+          Softwares, sites, aplicativos entre outros para computador e celular.<br><br>
+
+          <img src="unip.png" width="150px" height="90px"><br>
+          Sou formado em Análise e Desenvolvimento de Sistemas na UNIP - Sorocaba 2019-2020.<br><br>
+
+          <img src="udemy.png" width="55px" height="35px"><br>
+          Estou cursando Web Morderno com JavaScript na Udemy com total de 90 horas de curso.<br><br>
+
+          <img src="favicon.ico" width="40px" height="40px">
+            Cursando Full-Stack na DankiCode.<br><br>
+
+          <img src="Logo_SENAC.png" width="80px" height="60px">
+          Cursei 3 anos de Ingles, nível Intermediario no Senac Sorocaba<br><br>
+
+          
+        
+        </p>
+      </div>
+    </section>
+    <div id="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre mim</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+      function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+      }
+    </script>
+  </body>
+
+</html>
